@@ -222,7 +222,7 @@ public class MQTTLearner {
 	 * @throws Exception 
 	 ******************************************/
 	public void learn() throws Exception {
-		LearnLogger log = LearnLogger.getLogger(MQTTLearner.class.getSimpleName());   //Learner用来干嘛呢？
+		LearnLogger log = LearnLogger.getLogger(MQTTLearner.class.getSimpleName());   
 		log.info( "Using learning algorithm " + learningAlgorithm.getClass().getSimpleName());
 		log.info("Using equivalence algorithm " + equivalenceAlgorithm.getClass().getSimpleName());
 		log.info("Start Learning");
