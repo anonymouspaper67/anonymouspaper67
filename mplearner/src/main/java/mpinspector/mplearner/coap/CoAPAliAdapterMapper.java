@@ -49,25 +49,25 @@ public class CoAPAliAdapterMapper {
 	
 	// ===================user needs to write start===========================
     // region ID，
-    //private static String regionId = "cn-shanghai";
+    //private static String regionId = "";
     // productKey
-    //private static String productKey = "a10h7JFLrp8";
+    //private static String productKey = "";
     // deviceName
-    //private static String deviceName = "NesaCoAPDevice";
+    //private static String deviceName = "";
     // deviceSecret
-   // private static String deviceSecret = "569c1vu5dMo3OzDmqPR6xbGVNBBOEmhl";
+   // private static String deviceSecret = "";
     // ===================user needs to write end===========================
 
     // identify MAC algorithm: HmacMD5 HmacSHA1, need to be same with signature
     private static final String HMAC_ALGORITHM = "hmacsha1";
 
     // CoAP address，port is 5682
-    //coap://a10h7JFLrp8.coap.cn-shanghai.link.aliyuncs.com:5682
+    
     //private static String serverURI = "coap://" + productKey +  ".coap." + regionId + ".link.aliyuncs.com:5682";
 
     // Topic for send messages; user can customize his topic in console; the authority of device operation should be chosen to publish
     //private static String updateTopic = "/" + productKey + "/" + deviceName + "/user/update";
-    ///a10h7JFLrp8/NesaCoAPDevice/user/get
+    /////user/get
    // private static String getTopic = "/"+productKey+"/"+deviceName+"/user/get";
 
     // token option
